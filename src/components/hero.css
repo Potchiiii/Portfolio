@@ -29,6 +29,7 @@
   .hero-text p {
     font-size: 1.2rem;
     margin: 0;
+    margin-left: auto;
   }
   
   /* Highlight specific text within the heading */
@@ -47,7 +48,7 @@
   .hero-photo img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 1000000000000000000000000px;
   }
   
   /* Responsive design for smaller screens */
