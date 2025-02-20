@@ -1,20 +1,22 @@
-import './hero.css'
-import Photo from './Profile.jpg'
+import './hero.css';
+import Photo from './Profile.jpg';
 
 function Hero() {
-
-    return (
-        <div className="container">
-            <div className="name">
-                <h1>Hello, I am <span>Daud Hassan</span></h1>
-                <span>Web Developer</span>
-            </div>
-            <div className="photo">
-                <img src={Photo} alt="Daud's photo" height={500} />
-            </div>
+  return (
+    <section className="hero">
+      <div className="hero-content">
+        <div className="hero-text">
+          <h1>
+            Hello, I am <span className="highlight">Daud Hassan</span>
+          </h1>
+          <p>Web Developer</p>
         </div>
-    )
-
+        <div className="hero-photo">
+          <img src={Photo} alt="Portrait of Daud Hassan" />
+        </div>
+      </div>
+    </section>
+  );
 }
 
-export default Hero
+export default Hero;
