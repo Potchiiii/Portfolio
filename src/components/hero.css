@@ -1,9 +1,61 @@
-span{
-    color: red;
-}
-
-.container{
-    display:flex;
+/* Container for the entire hero section */
+.hero {
+    display: flex;
     justify-content: center;
-    margin-left: 5%;
-}
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  /* Wraps both text and photo */
+  .hero-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Text area styling */
+  .hero-text {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+    margin: 0;
+    margin-left: auto;
+  }
+  
+  /* Highlight specific text within the heading */
+  .highlight {
+    color: #e63946; /* Example red shade */
+  }
+  
+  /* Photo area styling */
+  .hero-photo {
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1000000000000000000000000px;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .hero-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
