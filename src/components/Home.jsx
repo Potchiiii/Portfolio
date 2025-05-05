@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 function Home() {
   const [typedText, setTypedText] = useState('');
-  const fullText = "I'm a passionate software developer";
+  const fullText = "I'm a software developer";
   const [index, setIndex] = useState(0);
   const [showCursor, setShowCursor] = useState(true);
 
